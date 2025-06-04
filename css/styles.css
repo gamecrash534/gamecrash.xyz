@@ -87,8 +87,11 @@ body {
 
 .feature-icon {
     font-size: 3rem;
-    color: #0d6efd;
     margin-bottom: 1rem;
+    background: linear-gradient(90deg, #ff4fa3, #0d6efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 a, a:visited {
@@ -115,12 +118,20 @@ a, a:visited {
     background: #23272b;
     color: #f0f0f0;
     border: none;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .card .btn {
     border-radius: 2rem;
 }
 .card .card-title {
-    color: #ff4fa3;
+    background: linear-gradient(90deg, #ff4fa3, #0d6efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .feature-icon {
     color: #0d6efd;
@@ -128,10 +139,12 @@ a, a:visited {
 .btn-primary, .btn-outline-primary {
     background-color: #ff4fa3;
     border-color: #ff4fa3;
+    transition: all 0.3s ease;
 }
 .btn-primary:hover, .btn-outline-primary:hover {
     background-color: #e03e8a;
     border-color: #e03e8a;
+    transform: scale(1.1);
 }
 .bg-light {
     background-color: #23272b !important;
