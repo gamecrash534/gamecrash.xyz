@@ -36,3 +36,15 @@
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
+.about-card {
+    background: var(--bg-dark-secondary);
+    color: var(--text-light);
+    border: none;
+}
+.about-card .list-group-item {
+    background: transparent;
+    color: var(--text-light);
+}
+.about-card .bi {
+    font-size: 1.5rem;
+}

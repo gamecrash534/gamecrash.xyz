@@ -31,3 +31,16 @@
 .btn-outline-success {
     border-width: 2px;
 }
+.cta-btn {
+    background: linear-gradient(90deg, #ff5e62 0%, #ff9966 100%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 2.5rem;
+    border-radius: 2rem;
+    transition: background 0.2s;
+}
+.cta-btn:hover {
+    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
+    color: #fff;
+}
