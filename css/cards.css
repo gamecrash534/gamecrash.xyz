@@ -1,0 +1,38 @@
+.card {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 32px rgba(235, 185, 185, 0.25);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card .btn {
+    border-radius: 2rem;
+}
+.card .card-title {
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: default;
+}
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content-dark-box {
+    background: var(--card-bg);
+    border-radius: 1.5rem;
+    /* box-shadow: 0 4px 32px rgba(235, 185, 185, 0.25); */
+    padding: 2.5rem 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
