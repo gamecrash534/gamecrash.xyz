@@ -2,7 +2,6 @@ function updateNavLinks() {
     const navLinks = document.querySelectorAll('.nav-link');
     const path = window.location.pathname.replace(/\/$/, "");
     navLinks.forEach(link => {
-        console.log(`Checking link: ${link.getAttribute('href')}`);
         link.classList.remove('active');
         let href = link.getAttribute('href').replace(/\/$/, "");
         if (href === path) {
