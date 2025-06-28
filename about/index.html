@@ -12,10 +12,44 @@
 <body>
     <div id="header"></div>
 
-    <!--#region Hero Section -->
-    <section class="about-hero text-center">
-        <div class="container fade-in">
-            <img src="/assets/images/logo.png" alt="Profile photo" class="profile-img rounded-circle mb-3">
+    <!--#region Page Header -->
+    <section class="position-relative py-4 fade-in">
+        <div class="container position-relative py-3">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a href="/" class="text-decoration-none" style="color: var(--primary);">
+                                    <i class="bi bi-house-door me-1"></i>Home
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active text-light" aria-current="page">About</li>
+                        </ol>
+                    </nav>
+                </div>
+                
+                <div class="col-12 text-center mb-4">
+                    <div class="position-relative d-inline-block">
+                        <img src="/assets/images/logo.png" alt="Profile photo" class="rounded-circle shadow-lg" 
+                             style="width: 120px; height: 120px; object-fit: cover; border: 3px solid var(--primary);">
+                    </div>
+                </div>
+                
+                <div class="col-12 text-center">
+                    <h1 class="display-5 fw-bold mb-3" style="background: linear-gradient(90deg, var(--primary), var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        <i class="bi bi-person me-2"></i>Hey, I'm game.crash!
+                    </h1>
+                    <p class="lead text-light mb-5 py-2 mx-auto" style="max-width: 750px; font-size: 1.1rem;">
+                        I'm a student and hobbyist from Germany, passionate about programming, gaming, and hardware-level digital technologies. 
+                        Whether I'm writing spaghetti-code, building open source projects, or exploring new game worlds, I love learning and sometimes even 
+                        sharing what I discover. When I'm not coding, you'll find me in games like Minecraft, Satisfactory, Scrap Mechanic, 
+                        or experimenting with microcontrollers and electronics. I started programming around 2019, due to my fascination 
+                        with Minecraft and the desire to be able to do the same, which ofcourse was (or still is) really far from happening - if i even want
+                        to do it in the first place anymore. :)
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <!--#endregion-->
@@ -23,18 +57,6 @@
     <!-- Main Content Section -->
     <section class="about-section fade-in">
         <div class="container">
-            <div class="row justify-content-center mb-5 fade-in">
-                <div class="col-lg-9 text-center">
-                    <h2 class="fw-bold mb-3 text-dark">Hey, I'm game.crash!</h2>
-                    <p class="lead text-secondary">
-                        I'm a student and hobbyist from Germany, passionate about programming, gaming, and hardware-level digital technologies. 
-                        Whether I'm writing spaghetti-code, building open source projects, or exploring new game worlds, I love learning and sometimes even 
-                        sharing what I discover. When I'm not coding, you'll find me in games like Minecraft, Satisfactory, Scrap Mechanic, 
-                        or experimenting with microcontrollers and electronics. I started programming around 2019, due to my fascination 
-                        with Minecraft and the desire to be able to do the same, which ofcourse was (or still is) really far from happening.
-                    </p>
-                </div>
-            </div>
             <!--#region Projects & Languages Section -->
             <div class="row justify-content-center">
                 <div class="col-lg-5 mb-4">
@@ -82,6 +104,7 @@
                         </div>
                     </div>
                 </div>
+                <!--#region Languages-->
                 <div class="col-lg-5 mb-4">
                     <div class="card bg-dark text-light shadow rounded-4 border-0 h-100">
                         <div class="card-body">
@@ -127,6 +150,7 @@
                         </div>
                     </div>
                 </div>
+                <!--#endregion-->
                 <!--#endregion-->
                 <!--#region Buttons-->
                 <div class="row mt-5 fade-in d-flex flex-wrap gap-3">
