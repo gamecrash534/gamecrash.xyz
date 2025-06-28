@@ -6,3 +6,16 @@
   --card-bg: #2c3035;
   --bg-dark-secondary: #3a4249;
 }
+
+/* Custom subtle classes as fallback */
+.bg-info-subtle-custom {
+  background-color: rgba(13, 202, 240, 0.1) !important;
+}
+
+.text-info-emphasis-custom {
+  color: #087990 !important;
+}
+
+.border-info-custom {
+  border-color: #0dcaf0 !important;
+}

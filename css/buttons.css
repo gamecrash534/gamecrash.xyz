@@ -12,7 +12,7 @@
     color: var(--primary);
     border: 2px solid var(--primary);
     background: transparent;
-    transition: background 0.2s, color 0.2s;
+    transition: all 0.2s, color 0.2s;
 }
 .btn-outline-pink:hover, .btn-outline-pink:focus {
     background: var(--primary);
@@ -22,7 +22,7 @@
     color: #b0b0b0;
     border: 2px solid #b0b0b0;
     background: transparent;
-    transition: background 0.2s, color 0.2s;
+    transition: all 0.2s, color 0.2s;
 }
 .btn-outline-gray:hover, .btn-outline-gray:focus {
     background: #b0b0b0;
@@ -38,7 +38,7 @@
     font-weight: 600;
     padding: 0.75rem 2.5rem;
     border-radius: 2rem;
-    transition: background 0.2s;
+    transition: all 0.2s;
 }
 .cta-btn:hover {
     background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
