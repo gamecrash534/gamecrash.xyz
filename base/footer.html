@@ -9,6 +9,9 @@
                 <i class="fab fa-github"></i>
             </a>
         </div>
-        <small>&copy; 2025 game.crash. All rights reserved.</small>
+        <small>&copy; <span id="currentYear"></span> game.crash. All rights reserved.</small>
+        <script defer="true">
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
     </div>
 </footer>
