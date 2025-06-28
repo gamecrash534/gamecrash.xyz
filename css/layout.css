@@ -61,9 +61,10 @@ a, a:visited {
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    content: "›";
-    color: var(--secondary);
-    font-weight: bold;
+    content: "›" !important;
+    color: var(--secondary) !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
 }
 
 @media (max-width: 768px) {
