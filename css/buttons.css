@@ -1,9 +1,9 @@
-.btn-primary, .btn-outline-primary {
+.btn-primary-accent, .btn-outline-primary-accent {
     background-color: var(--primary);
     border-color: var(--primary);
     transition: all 0.3s ease;
 }
-.btn-primary:hover, .btn-outline-primary:hover {
+.btn-primary-accent:hover, .btn-outline-accent-custom:hover {
     background-color: #e03e8a;
     border-color: #e03e8a;
     transform: scale(1.1);
