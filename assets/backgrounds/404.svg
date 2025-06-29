@@ -4,11 +4,9 @@
             <rect x="0" y="0" width="40" height="40" fill="none"/>
             <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e0e0e0" stroke-width="1"/>
         </pattern>
-        <!-- Fine detail: small dots at grid intersections -->
-        <circle id="dot" cx="0" cy="0" r="1.2" fill="#e0e0e0" opacity="0.45"/>
+        <circle id="dot" cx="0" cy="0" r="10.2" fill="#e0e0e0" opacity="0.45"/>
     </defs>
     <rect width="100%" height="100%" fill="url(#grid)" />
-    <!-- Fine details: dots at some intersections -->
     <g>
         <use href="#dot" x="80" y="120"/>
         <use href="#dot" x="320" y="200"/>
@@ -16,6 +14,5 @@
         <use href="#dot" x="180" y="440"/>
         <use href="#dot" x="420" y="80"/>
     </g>
-    <!-- Fine detail: a subtle diagonal line -->
     <line x1="0" y1="0" x2="1000" y2="600" stroke="#e0e0e0" stroke-width="0.7" opacity="0.13"/>
 </svg>
