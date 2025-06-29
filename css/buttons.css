@@ -41,8 +41,11 @@
     transition: all 0.3s ease;
     background-size: 200% 100%;
     background-position: 0% 0%;
+    box-shadow: 0 0px 15px #ff5e62;
 }
 .cta-btn:hover {
     background-position: 100% 0%;
     color: #fff;
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 0px 25px #ff9966;
 }
