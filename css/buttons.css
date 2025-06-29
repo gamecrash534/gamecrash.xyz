@@ -38,10 +38,11 @@
     font-weight: 600;
     padding: 0.75rem 2.5rem;
     border-radius: 2rem;
-    transition: all 0.2s linear;
-    background-size: 150%;
+    transition: all 0.3s ease;
+    background-size: 200% 100%;
+    background-position: 0% 0%;
 }
 .cta-btn:hover {
-    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
+    background-position: 100% 0%;
     color: #fff;
 }
