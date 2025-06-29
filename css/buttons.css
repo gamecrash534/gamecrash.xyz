@@ -42,11 +42,6 @@
     background-size: 150%;
 }
 .cta-btn:hover {
-    animation: button-bg-animate 0.5s linear forwards;
+    background: linear-gradient(90deg, #ff9966 0%, #ff5e62 100%);
     color: #fff;
 }
-
- @keyframes button-bg-animate {
-    0% { background-position: 0% 0%; }
-    100% { background-position: 100% 100%; }
-  }
