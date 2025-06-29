@@ -1,0 +1,22 @@
+footer .footer-link {
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+footer .footer-link:hover {
+    color: var(--primary) !important;
+}
+
+footer .footer-social-link {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+footer .footer-social-link:hover {
+    color: var(--primary) !important;
+    transform: translateY(-2px);
+}
+
+footer .footer-brand .fs-5 {
+    letter-spacing: 1px;
+}
