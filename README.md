@@ -1,4 +1,4 @@
-# gamecrash534.github.io
+# gamecrash.xyz
 This is my personal static website. Feel free to take a look at it and give me feedback
 
 ---
