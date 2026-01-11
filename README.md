@@ -1,5 +1,2 @@
-# gamecrash.xyz
-This is my personal static website. Feel free to take a look at it and give me feedback
-
----
-This site was built using some plain html / css / js and bootstrap, with some small use of the devicons-library.
+# next.gamecrash.xyz
+This is the branch for the new https://gamecrash.xyz website
