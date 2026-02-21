@@ -1,5 +1,5 @@
 # gamecrash.xyz
-This is my personal static website. Feel free to take a look at it and give me feedback
+This was my personal static website. The new main page is now under https://github.com/gamecrash534/gamecrash.dev
 
 ---
 This site was built using some plain html / css / js and bootstrap, with some small use of the devicons-library.
